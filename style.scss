@@ -1,17 +1,80 @@
 .scrolling-wrapper {
+    
+    margin-top: 200px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    
+    
    
-    .card {
+    .card1 {
+        background: red;
       flex: 0 0 auto;
+      padding: 40px;
+      text-align: center;
+      width: 80%;
+      margin-right: 20px;
+      height: 300px;
+      
     }
-  }
-  .scrolling-wrapper {
-    -webkit-overflow-scrolling: touch;
-  }
-  .scrolling-wrapper {
-    &::-webkit-scrollbar {
-      display: none;
+    .card2 {
+        background: red;
+      flex: 0 0 auto;
+      padding: 40px;
+      text-align: center;
+      width: 80%;
+      margin-right: 20px;
+      height: 300px;
+      
+    }
+    .card3 {
+        background: red;
+      flex: 0 0 auto;
+      padding: 40px;
+      text-align: center;
+      width: 80%;
+      margin-right: 20px;
+      height: 300px;
+      
+    }
+    .card4 {
+        background: red;
+      flex: 0 0 auto;
+      padding: 40px;
+      text-align: center;
+      width: 80%;
+      margin-right: 20px;
+      height: 300px;
+      
+    }
+    .card5 {
+        background: red;
+      flex: 0 0 auto;
+      padding: 40px;
+      text-align: center;
+      width: 80%;
+      margin-right: 20px;
+      height: 300px;
+      
+    }
+    .card6 {
+        background: red;
+      flex: 0 0 auto;
+      padding: 40px;
+      text-align: center;
+      width: 80%;
+      margin-right: 20px;
+      height: 300px;
+      
+    }
+    .card7 {
+        background: red;
+      flex: 0 0 auto;
+      padding: 40px;
+      text-align: center;
+      width: 80%;
+      margin-right: 20px;
+      height: 300px;
+      
     }
   }

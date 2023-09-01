@@ -1,4 +1,5 @@
 .scrolling-wrapper {
+  margin-top: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,16 +7,80 @@
       flex-wrap: nowrap;
   overflow-x: auto;
 }
-.scrolling-wrapper .card {
+.scrolling-wrapper .card1 {
+  background: red;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 20px;
+  height: 300px;
 }
-
-.scrolling-wrapper {
-  -webkit-overflow-scrolling: touch;
+.scrolling-wrapper .card2 {
+  background: red;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 20px;
+  height: 300px;
 }
-
-.scrolling-wrapper::-webkit-scrollbar {
-  display: none;
+.scrolling-wrapper .card3 {
+  background: red;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 20px;
+  height: 300px;
+}
+.scrolling-wrapper .card4 {
+  background: red;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 20px;
+  height: 300px;
+}
+.scrolling-wrapper .card5 {
+  background: red;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 20px;
+  height: 300px;
+}
+.scrolling-wrapper .card6 {
+  background: red;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 20px;
+  height: 300px;
+}
+.scrolling-wrapper .card7 {
+  background: red;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 20px;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */
