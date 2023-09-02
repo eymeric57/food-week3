@@ -1,4 +1,4 @@
-.scrolling-wrapper {
+body .scrolling-wrapper {
   margin-top: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,8 +6,82 @@
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   overflow-x: auto;
+  scroll-behavior: smooth;
+  overflow: hidden;
 }
-.scrolling-wrapper .card1 {
+body .scrolling-wrapper .card1 {
+  border-radius: 50px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 200px;
+  height: 300px;
+  border: solid 5px white;
+}
+body .scrolling-wrapper .card2 {
+  background: red;
+  border-radius: 50px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 200px;
+  height: 300px;
+}
+body .scrolling-wrapper .card3 {
+  background: red;
+  border-radius: 50px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 200px;
+  height: 300px;
+}
+body .scrolling-wrapper .card4 {
+  background: red;
+  border-radius: 50px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 200px;
+  height: 300px;
+}
+body .scrolling-wrapper .card5 {
+  background: red;
+  border-radius: 50px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 200px;
+  height: 300px;
+}
+body .scrolling-wrapper .card6 {
+  background: red;
+  border-radius: 50px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  margin-right: 200px;
+  height: 300px;
+}
+body .scrolling-wrapper .card7 {
   background: red;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
@@ -15,72 +89,19 @@
   padding: 40px;
   text-align: center;
   width: 80%;
-  margin-right: 20px;
+  margin-right: 200px;
   height: 300px;
 }
-.scrolling-wrapper .card2 {
-  background: red;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  padding: 40px;
-  text-align: center;
-  width: 80%;
-  margin-right: 20px;
-  height: 300px;
+body .weekday {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 20px;
 }
-.scrolling-wrapper .card3 {
-  background: red;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  padding: 40px;
-  text-align: center;
-  width: 80%;
-  margin-right: 20px;
-  height: 300px;
-}
-.scrolling-wrapper .card4 {
-  background: red;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  padding: 40px;
-  text-align: center;
-  width: 80%;
-  margin-right: 20px;
-  height: 300px;
-}
-.scrolling-wrapper .card5 {
-  background: red;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  padding: 40px;
-  text-align: center;
-  width: 80%;
-  margin-right: 20px;
-  height: 300px;
-}
-.scrolling-wrapper .card6 {
-  background: red;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  padding: 40px;
-  text-align: center;
-  width: 80%;
-  margin-right: 20px;
-  height: 300px;
-}
-.scrolling-wrapper .card7 {
-  background: red;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  padding: 40px;
-  text-align: center;
-  width: 80%;
-  margin-right: 20px;
-  height: 300px;
+body .weekday button {
+  border-radius: 10px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
