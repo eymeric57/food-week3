@@ -10,7 +10,10 @@ body .scrolling-wrapper {
   overflow: hidden;
 }
 body .scrolling-wrapper .card1 {
-  border-radius: 50px;
+  background: url(./asset/img/food.jpg) center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
@@ -21,9 +24,28 @@ body .scrolling-wrapper .card1 {
   height: 300px;
   border: solid 5px white;
 }
+body .scrolling-wrapper .card1 h2 {
+  margin-top: 110px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
+}
+body .scrolling-wrapper .card1 p {
+  margin-top: -20px;
+  font-family: dancing script;
+  color: rgba(255, 248, 248, 0.877);
+}
+body .scrolling-wrapper .card1 h3 {
+  margin-top: -10px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
+}
 body .scrolling-wrapper .card2 {
-  background: red;
-  border-radius: 50px;
+  background: url(./asset/img/food.jpg) center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
@@ -32,10 +54,28 @@ body .scrolling-wrapper .card2 {
   width: 80%;
   margin-right: 200px;
   height: 300px;
+}
+body .scrolling-wrapper .card2 h2 {
+  margin-top: 110px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
+}
+body .scrolling-wrapper .card2 p {
+  margin-top: -20px;
+  font-family: dancing script;
+  color: rgba(255, 248, 248, 0.877);
+}
+body .scrolling-wrapper .card2 h3 {
+  margin-top: -10px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
 }
 body .scrolling-wrapper .card3 {
-  background: red;
-  border-radius: 50px;
+  background: url(./asset/img/food.jpg) center;
+  background-size: contain;
+  background-repeat: no-repeat;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
@@ -44,10 +84,28 @@ body .scrolling-wrapper .card3 {
   width: 80%;
   margin-right: 200px;
   height: 300px;
+}
+body .scrolling-wrapper .card3 h2 {
+  margin-top: 110px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
+}
+body .scrolling-wrapper .card3 p {
+  margin-top: -20px;
+  font-family: dancing script;
+  color: rgba(255, 248, 248, 0.877);
+}
+body .scrolling-wrapper .card3 h3 {
+  margin-top: -10px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
 }
 body .scrolling-wrapper .card4 {
-  background: red;
-  border-radius: 50px;
+  background: url(./asset/img/food.jpg) center;
+  background-size: contain;
+  background-repeat: no-repeat;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
@@ -56,10 +114,28 @@ body .scrolling-wrapper .card4 {
   width: 80%;
   margin-right: 200px;
   height: 300px;
+}
+body .scrolling-wrapper .card4 h2 {
+  margin-top: 110px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
+}
+body .scrolling-wrapper .card4 p {
+  margin-top: -20px;
+  font-family: dancing script;
+  color: rgba(255, 248, 248, 0.877);
+}
+body .scrolling-wrapper .card4 h3 {
+  margin-top: -10px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
 }
 body .scrolling-wrapper .card5 {
-  background: red;
-  border-radius: 50px;
+  background: url(./asset/img/food.jpg) center;
+  background-size: contain;
+  background-repeat: no-repeat;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
@@ -68,10 +144,28 @@ body .scrolling-wrapper .card5 {
   width: 80%;
   margin-right: 200px;
   height: 300px;
+}
+body .scrolling-wrapper .card5 h2 {
+  margin-top: 110px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
+}
+body .scrolling-wrapper .card5 p {
+  margin-top: -20px;
+  font-family: dancing script;
+  color: rgba(255, 248, 248, 0.877);
+}
+body .scrolling-wrapper .card5 h3 {
+  margin-top: -10px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
 }
 body .scrolling-wrapper .card6 {
-  background: red;
-  border-radius: 50px;
+  background: url(./asset/img/food.jpg) center;
+  background-size: contain;
+  background-repeat: no-repeat;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
@@ -81,8 +175,27 @@ body .scrolling-wrapper .card6 {
   margin-right: 200px;
   height: 300px;
 }
+body .scrolling-wrapper .card6 h2 {
+  margin-top: 110px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
+}
+body .scrolling-wrapper .card6 p {
+  margin-top: -20px;
+  font-family: dancing script;
+  color: rgba(255, 248, 248, 0.877);
+}
+body .scrolling-wrapper .card6 h3 {
+  margin-top: -10px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
+}
 body .scrolling-wrapper .card7 {
-  background: red;
+  background: url(./asset/img/food.jpg) center;
+  background-size: contain;
+  background-repeat: no-repeat;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
@@ -91,6 +204,23 @@ body .scrolling-wrapper .card7 {
   width: 80%;
   margin-right: 200px;
   height: 300px;
+}
+body .scrolling-wrapper .card7 h2 {
+  margin-top: 110px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
+}
+body .scrolling-wrapper .card7 p {
+  margin-top: -20px;
+  font-family: dancing script;
+  color: rgba(255, 248, 248, 0.877);
+}
+body .scrolling-wrapper .card7 h3 {
+  margin-top: -10px;
+  font-size: 1.5rem;
+  color: rgba(255, 248, 248, 0.877);
+  font-family: dancing script;
 }
 body .weekday {
   display: -webkit-box;
