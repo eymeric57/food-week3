@@ -31,7 +31,7 @@ body {
       flex: 0 0 auto;
       padding: 40px;
       text-align: center;
-      width: 80%;
+      width: 75%;
       margin-right: 200px;
       height: 300px;
       border: solid 5px white;
@@ -66,7 +66,7 @@ body {
       flex: 0 0 auto;
       padding: 40px;
       text-align: center;
-      width: 80%;
+      width: 75%;
       margin-right: 200px;
       height: 300px;
       border: solid 5px white;
@@ -99,7 +99,7 @@ body {
       flex: 0 0 auto;
       padding: 40px;
       text-align: center;
-      width: 80%;
+      width: 75%;
       margin-right: 200px;
       height: 300px;
       border-radius: 15px;
@@ -132,7 +132,7 @@ body {
       flex: 0 0 auto;
       padding: 40px;
       text-align: center;
-      width: 80%;
+      width: 75%;
       margin-right: 200px;
       height: 300px;
       border: solid 5px white;
@@ -165,7 +165,7 @@ body {
       flex: 0 0 auto;
       padding: 40px;
       text-align: center;
-      width: 80%;
+      width:75%;
       margin-right: 200px;
       height: 300px;
       border: solid 5px white;
@@ -198,7 +198,7 @@ body {
       flex: 0 0 auto;
       padding: 40px;
       text-align: center;
-      width: 80%;
+      width: 75x%;
       margin-right: 200px;
       height: 300px;
       border: solid 5px white;
@@ -231,7 +231,7 @@ body {
         flex: 0 0 auto;
       padding: 40px;
       text-align: center;
-      width: 80%;
+      width: 75%;
       margin-right: 200px;
       height: 300px;
       border: solid 5px white;
@@ -267,6 +267,16 @@ body {
 button{
     border-radius: 10px;
     padding: 10px;
+    border: none;
+    color: white;
+    font-family: dancing script;
+    font-size:1.5rem ;
+        background: rgb(36, 36, 36);
+        transition: 0.8s;
+        &:hover{
+            scale: 1.2;
+            cursor: pointer;
+        }
    
 
 }
@@ -275,10 +285,14 @@ button{
 
 .footer{
     margin-top: 50px;
-    color: red;
+    margin-left: 20px;
+    font-family: dancing scipt;
     a{
         text-decoration: none;
-        color: black;
+        font-family: dancing script;
+        font-size: 1.5rem;
+        color: rgb(223, 223, 223);
+       
 
     }
 
