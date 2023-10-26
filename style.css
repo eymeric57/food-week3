@@ -122,7 +122,7 @@ body .scrolling-wrapper .card3 p {
   font-size: 1.8rem;
 }
 body .scrolling-wrapper .card3 h3 {
-  margin-top: -20px;
+  margin-top: -25px;
   font-size: 2rem;
   color: rgba(255, 248, 248, 0.877);
   font-family: dancing script;
@@ -158,7 +158,7 @@ body .scrolling-wrapper .card4 p {
   font-size: 1.8rem;
 }
 body .scrolling-wrapper .card4 h3 {
-  margin-top: -20px;
+  margin-top: -25px;
   font-size: 2rem;
   color: rgba(255, 248, 248, 0.877);
   font-family: dancing script;
@@ -194,7 +194,7 @@ body .scrolling-wrapper .card5 p {
   font-size: 1.8rem;
 }
 body .scrolling-wrapper .card5 h3 {
-  margin-top: -20px;
+  margin-top: -25px;
   font-size: 2rem;
   color: rgba(255, 248, 248, 0.877);
   font-family: dancing script;
@@ -230,7 +230,7 @@ body .scrolling-wrapper .card6 p {
   font-size: 1.8rem;
 }
 body .scrolling-wrapper .card6 h3 {
-  margin-top: -20px;
+  margin-top: -25px;
   font-size: 2rem;
   color: rgba(255, 248, 248, 0.877);
   font-family: dancing script;
@@ -266,7 +266,7 @@ body .scrolling-wrapper .card7 p {
   font-size: 1.8rem;
 }
 body .scrolling-wrapper .card7 h3 {
-  margin-top: -20px;
+  margin-top: -25px;
   font-size: 2rem;
   color: rgba(255, 248, 248, 0.877);
   font-family: dancing script;
@@ -307,6 +307,11 @@ body .weekday button:hover {
   font-size: 1.5rem;
   color: rgb(223, 223, 223);
 }
+
+
+
+
+/* .................................... RESPONSIV .............................................................*/
 
 @media screen and (max-width: 900px) {
   body {
@@ -421,7 +426,7 @@ body .weekday button:hover {
     color: rgba(255, 248, 248, 0.877);
   }
   body .scrolling-wrapper .card3 h3 {
-    margin-top: -10px;
+    margin-top: -30px;
     font-size: 1.5rem;
     color: rgba(255, 248, 248, 0.877);
     font-family: dancing script;
@@ -453,7 +458,7 @@ body .weekday button:hover {
     color: rgba(255, 248, 248, 0.877);
   }
   body .scrolling-wrapper .card4 h3 {
-    margin-top: -10px;
+    margin-top: -30px;
     font-size: 1.5rem;
     color: rgba(255, 248, 248, 0.877);
     font-family: dancing script;
@@ -485,7 +490,7 @@ body .weekday button:hover {
     color: rgba(255, 248, 248, 0.877);
   }
   body .scrolling-wrapper .card5 h3 {
-    margin-top: -10px;
+    margin-top: -30px;
     font-size: 1.5rem;
     color: rgba(255, 248, 248, 0.877);
     font-family: dancing script;
@@ -517,7 +522,7 @@ body .weekday button:hover {
     color: rgba(255, 248, 248, 0.877);
   }
   body .scrolling-wrapper .card6 h3 {
-    margin-top: -10px;
+    margin-top: -30px;
     font-size: 1.5rem;
     color: rgba(255, 248, 248, 0.877);
     font-family: dancing script;
@@ -549,7 +554,7 @@ body .weekday button:hover {
     color: rgba(255, 248, 248, 0.877);
   }
   body .scrolling-wrapper .card7 h3 {
-    margin-top: -10px;
+    margin-top: -30px;
     font-size: 1.5rem;
     color: rgba(255, 248, 248, 0.877);
     font-family: dancing script;
@@ -561,7 +566,8 @@ body .weekday button:hover {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    margin-top: 50px;
+    
+    margin: 50px 0 0 0;
   }
   body .weekday button {
     border-radius: 10px;
@@ -589,4 +595,74 @@ body .weekday button:hover {
     font-size: 1.5rem;
     color: rgb(223, 223, 223);
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media screen and (max-width: 375px){
+  body .scrolling-wrapper .card1{
+
+    width: 70%;
+  }
+  body .scrolling-wrapper .card1 p {
+
+    font-size: 1.6rem;
+  }
+  body .scrolling-wrapper .card2{
+
+    width: 70%;
+  }
+  
+  body .scrolling-wrapper .card2 p {
+
+    font-size: 1.6rem;
+  }
+  body .scrolling-wrapper .card3{
+
+    width: 70%;
+  }
+  
+  body .scrolling-wrapper .card3 p {
+
+    font-size: 1.6rem;
+  }
+  body .scrolling-wrapper .card4{
+
+    width: 70%;
+  }
+  
+  body .scrolling-wrapper .card4 p {
+
+    font-size: 1.6rem;
+    margin-top: -30px;
+    
+  }
+  body .scrolling-wrapper .card5{
+
+    width: 70%;
+  }
+  
+  body .scrolling-wrapper .card5 p {
+
+    font-size: 1.6rem;
+  }
+  body .scrolling-wrapper .card6{
+
+    width: 70%;
+  }
+  
+  body .scrolling-wrapper .card6 p {
+
+    font-size: 1.6rem;
+  }
+
+  body .scrolling-wrapper .card7{
+
+    width: 70%;
+  }
+  
+  body .scrolling-wrapper .card7 p {
+
+    font-size: 1.6rem;
+  }
+
+
+}
